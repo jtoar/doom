@@ -41,18 +41,18 @@
           "O" #'neuron-open-index
           "j" #'neuron-open-daily-notes
           "t" #'neuron-query-tags
-          "r" #'neuron-refresh
+          "R" #'neuron-refresh
           "c" #'neuron-edit-zettelkasten-configuration
 
           ;;; Alternatively, bind all rib commands in a separate prefix
-          ;; (:prefix ("r" . "rib")
-          ;;   "w" #'neuron-rib-watch
-          ;;   "g" #'neuron-rib-generate
-          ;;   "s" #'neuron-rib-serve
-          ;;   "o" #'neuron-rib-open-zettel
-          ;;   "z" #'neuron-rib-open-z-index
-          ;;   "k" #'neuron-rib-kill
-          ;;   )
+          (:prefix ("r" . "rib")
+            "w" #'neuron-rib-watch
+            "g" #'neuron-rib-generate
+            "s" #'neuron-rib-serve
+            "o" #'neuron-rib-open-zettel
+            "z" #'neuron-rib-open-z-index
+            "k" #'neuron-rib-kill
+            )
           )
         )
   :config
