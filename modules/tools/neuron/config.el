@@ -36,7 +36,8 @@
           "z" #'neuron-new-zettel
           "e" #'neuron-edit-zettel
           "w" #'neuron-rib-watch
-          "g" #'neuron-rib-generate
+          ;; this one's kind of redundant
+          ;; "g" #'neuron-rib-generate
           "o" #'neuron-open-zettel
           "O" #'neuron-open-index
           "j" #'neuron-open-daily-notes
